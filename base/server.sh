@@ -8,8 +8,8 @@ fi
 
 shopt -s extglob
 
-steam_dir="${HOME}/Steam"
-server_dir="${HOME}/server"
+steam_dir="/home/csgo/Steam"
+server_dir="/home/csgo/server"
 server_installed_lock_file="${server_dir}/installed.lock"
 csgo_dir="${server_dir}/csgo"
 csgo_custom_files_dir="${CSGO_CUSTOM_FILES_DIR-"/usr/csgo"}"
