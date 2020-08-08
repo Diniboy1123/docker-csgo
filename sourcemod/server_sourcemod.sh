@@ -10,8 +10,8 @@ shopt -s extglob
 
 args=("$@")
 
-server=$HOME/server.sh
-csgo_dir=$HOME/server/csgo
+server=/home/csgo/server.sh
+csgo_dir=/home/csgo/server/csgo
 sourcemod_plugins_dir=$csgo_dir/addons/sourcemod/plugins
 
 mmsource_exact_version="${METAMOD_VERSION-"1.10.7"}"
